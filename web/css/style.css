@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 19, 2017, 3:08:51 PM
+    Author     : Ashwani
+*/
+html, body * { box-sizing: border-box; font-family: 'Roboto', sans-serif; color: #808080}
+h1{
+    text-align: center;
+}
+form{
+    width: 100%;
+    display: block;
+    margin-top:100px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+}
+.row{
+    margin: 30px;
+    display: flex;
+}
+.row .label{
+    text-align: left !important;
+    width: 50%;
+    padding-left: 400px;
+    display:inline-block;
+}
+.row .input{
+    width: 50%;
+    display:inline-block;
+}
+.row .submitbuttons {
+    margin: 10px auto;
+    text-align: center;
+    width: 200px !important;
+    font-size: 15px;
+}
+.button{
+    width: 100px;
+    border: none;
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #dfdfdf;
+}
+.hidden{
+    display: none;
+}
+.datablock{
+    width: 100%;
+    display:table;
+}
+.datablock div{
+    width:100%;
+    display: table-row;
+}
+.datablock .heading{
+    font-weight: 500;
+}
+.datablock .heading{
+    background-color: #dfdfdf;
+/*    color: #1472e8;*/
+}
+.datablock .content:hover{
+    background-color: #e7e7e7;
+}
+.datablock .content{
+    background-color: #f7f7f7;
+    /*color:#669;*/
+}
+.table {
+    display: table;
+}
+.tablerow{
+    display: table-row;
+    width: 100%;
+}
+.tablecol{
+    display: table-cell;
+    padding: 15px 0;
+    padding-left: 10px;
+}
+.tablecol .button{
+    border: solid 1px lightgrey;
+}
+.largewidth{
+    width:max-content;
+}
+.smallwidth{
+    width:max-content;
+}
